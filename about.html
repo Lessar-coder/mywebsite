@@ -1,46 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 
 <head>
+    <meta charset="UTF-8">
     <title>About</title>
+
     <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            margin: 0;
+            min-height: 100vh;
+
+            /* Фон */
+            background-image: url('homepage-still3.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
+        }
+
+        nav {
+            margin: 20px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        img {
+            width: 250px;
+            border-radius: 15px;
+            margin-top: 20px;
+        }
+
+        .content {
+            padding-top: 50px;
+            text-shadow: 2px 2px 10px black;
+        }
+    </style>
 </head>
-<style>
+
 <body>
-      margin: 0;
-      height: 100vh;
 
-      /* Фоновое изображение */
-      background-image: url('homepage-still3.jpg');
+    <div class="content">
+        <h1>About Page</h1>
 
-      /* Настройки */
-      background-size: cover;      /* Растянуть */
-      background-position: center; /* По центру */
-      background-repeat: no-repeat;/* Без повторов */
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
 
-      font-family: Arial, sans-serif;
-    }
+        <img src="images.jpg" alt="Photo">
 
-    .content {
-      color: white;
-      text-align: center;
-      padding-top: 40vh;
-      font-size: 40px;
-      text-shadow: 2px 2px 10px black;
-    }
-    <h1>About Page</h1>
-
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-    </nav>
-
-    <img src="images.jpg">
-    <p>Name: Dogan Lessar</p>
-    <p>Id: 2317466</p>
-    <p>Age: 20</p>
+        <p>Name: Dogan Lessar</p>
+        <p>Id: 2317466</p>
+        <p>Age: 20</p>
+    </div>
 
 </body>
-</style>
+
 </html>
